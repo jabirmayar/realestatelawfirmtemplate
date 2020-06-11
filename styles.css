@@ -1,0 +1,281 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat Black';
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+#Navbarmenu {
+  background-color: #0E0F0F;
+  color: #fff;
+}
+
+.fas{
+  color: #F32948;
+}
+
+#title {
+  background-color: #393A3A;
+  color: #fff;
+  padding-left: 2%;
+  border-bottom: 3px solid #F32948;
+}
+
+.titleh3{
+  padding-top: 3%;
+  padding-left: 8%;
+  padding-right: 2%;
+}
+
+.titleHR{
+border:  #F32948 solid 1px;
+border-bottom: none;
+width: 26%;
+margin-left: 8%;
+}
+
+.whyChoose_HR{
+border:  #F32948 solid 1px;
+border-bottom: none;
+width: 35%;
+
+}
+
+
+.heading{
+  position: relative;
+  padding-left: 7%;
+  padding-right: 2%;
+}
+
+.parag {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 1% 7% 1%;
+}
+
+/* Navagation Bar */
+.navbar {
+  padding: 0 0 0.1rem;
+}
+
+.logo{
+  padding-right: 10px;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+u{
+  color: #ff4763;
+
+}
+
+.book_consultation_btn {
+	background:linear-gradient(to bottom, #ff4763 5%, #ed324b 100%);
+	background-color:#ff4763;
+	border-radius:28px;
+	border:1px solid #f32947;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  margin: 0% 8% 2%;
+}
+.book_consultation_btn:hover {
+	background:linear-gradient(to bottom, #ed324b 5%, #ff4763 100%);
+	background-color:#ed324b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+
+/* Title Image */
+.title-img {
+  width: 35%;
+  transform: rotate(0deg);
+  position: absolute;
+  right: 20%;
+  bottom: 0px;
+}
+
+/* Icons  */
+.Ficons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.Ficons:hover {
+  color: #ff4c68;
+}
+
+
+.Ficon {
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+
+.Ficon:hover {
+  color: #fff;
+}
+
+
+/* Feature Posts */
+#why_choose_us {
+  margin-top: 30px;
+  padding: 1% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.why_us{
+  text-align: center;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+
+#practices_area_section {
+  padding: 1% 15%;
+  background-color: #ef8172;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+  border-top: 3px solid #C1BCBD;
+}
+
+.practices_area_Div{
+  text-align: center;
+}
+.practice_{
+  color: White;
+}
+
+.parag1{
+  color: #F7F7F7;
+}
+
+.pract_Header{
+  color: #FFFFFF;
+}
+
+.feature-box1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+
+
+
+
+.book_consultation_div{
+  text-align: center;
+  position: relative;
+  margin: 2%;
+}
+
+.book_consultation_btn2 {
+	background:linear-gradient(to bottom, #4f4d4e 5%, #3d3d3d 100%);
+	background-color:#4f4d4e;
+	border-radius:28px;
+	border:1px solid #544a4b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.book_consultation_btn2:hover {
+	background:linear-gradient(to bottom, #3d3d3d 5%, #4f4d4e 100%);
+	background-color:#3d3d3d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+footer{
+  height: 30px;
+  width: auto;
+}
+
+.copy-right {
+
+  color: #5D5D5D;
+  text-align: center;
+  position: relative;
+  padding-top: 1%;
+}
+
+.name{
+  color: #D88793;
+}
+
+
+
+
+@media (max-width: 1028px) {
+  #Navbarmenu{
+    text-align: center;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .titleHR{
+  border:  #F32948 solid 1px;
+  border-bottom: none;
+  width: 36%;
+  margin-left: 10.5%;
+  }
+}
